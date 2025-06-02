@@ -121,9 +121,9 @@ class Opinion:
         self.author = author
         self.recommendation = recommendation
         self.stars = stars
-        self.content = content
-        self.pros = pros
-        self.cons = cons
+        self.content_pl = content
+        self.pros_pl = pros
+        self.cons_pl = cons
         self.vote_yes = vote_yes
         self.vote_no = vote_no
         self.publish_date = publish_date
