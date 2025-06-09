@@ -2,6 +2,7 @@ from app import app
 from flask import render_template, redirect, url_for,request
 from app.forms import ExtractForm
 from app.models import Product
+import json
 
 @app.route("/")
 def index():
@@ -25,12 +26,14 @@ def extract():
             product.export_opinions()
             return redirect(url_for('product',product_id=product_id))
         form.product_id.errors.append("There is no product for provided id or product has no opinions")
-        return render_template('extract',form=form)
-    return render_template('extract',form=form)
+        return render_template('extract.html',form=form)
+    return render_template('extract.html',form=form)
 
 @app.route("/products")
 def products():
-    return render_template("products.html")
+    with open('products.json', 'r') as file:
+        products = json.load(file)
+    return render_template("products.html",products = products)
 
 @app.route("/product/<product_id>")
 def product(product_id):

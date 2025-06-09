@@ -1,0 +1,65 @@
+{
+    "product_id": "58895624",
+    "product_name": "Szczoteczka elektryczna Seysso Baby Penguin",
+    "stats": {
+        "opinions_count": 351,
+        "pros_count": 134,
+        "cons_count": 20,
+        "pros_cons_count": 19,
+        "average_rate": 4.814814814814815,
+        "pros": {
+            "ease of cleaning": 107,
+            "convenience of use": 104,
+            "volume of work": 81,
+            "nice look": 58,
+            "easy to use": 58,
+            "The child is interested in washing": 46,
+            "matched to tiny handles": 44,
+            "workmanship": 40,
+            "Effective cleaning": 39,
+            "backlight": 30,
+            "resilience": 29,
+            "The light helps parents and encourages today": 24,
+            "Protection against battery getting out": 21,
+            "The light allows you to see your teeth": 21,
+            "price": 21,
+            "Very good lies in the hands of the child": 20,
+            "profiled": 18,
+            "Charging with a regular battery": 12,
+            "No vibration level adjustment": 2,
+            "Vibration distracts the child": 1,
+            "fun is": 1
+        },
+        "cons": {
+            "No vibration level adjustment": 9,
+            "volume of work": 5,
+            "Vibration distracts the child": 4,
+            "fun is": 4,
+            "resilience": 3,
+            "convenience of use": 1,
+            "easy to use": 1,
+            "The child is interested in washing": 1,
+            "ease of cleaning": 1,
+            "matched to tiny handles": 1,
+            "Effective cleaning": 1
+        },
+        "recommendations": {
+            "false": 6,
+            "true": 286,
+            "NaN": 0
+        },
+        "stars": {
+            "0.0": 0,
+            "0.5": 2,
+            "1.0": 2,
+            "1.5": 1,
+            "2.0": 0,
+            "2.5": 1,
+            "3.0": 1,
+            "3.5": 3,
+            "4.0": 19,
+            "4.5": 33,
+            "5.0": 289
+        }
+    }
+}
